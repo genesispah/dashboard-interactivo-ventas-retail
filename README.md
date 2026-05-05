@@ -2,124 +2,116 @@
 
 ## 📌 Descripción del proyecto
 
-Desarrollo de un **dashboard interactivo** para el análisis de ventas de un supermercado, utilizando Google Sheets como fuente de datos y Looker Studio para la visualización.
+Proyecto de análisis de ventas para un supermercado, desarrollado con **Google Sheets** como fuente de datos y **Looker Studio** para la creación de un dashboard interactivo.
 
-El dashboard permite explorar la información mediante filtros dinámicos, facilitando el análisis de indicadores clave y la toma de decisiones basada en datos.
+El objetivo del proyecto es visualizar el comportamiento de las ventas, identificar productos y clientes relevantes, analizar métodos de pago y dar seguimiento a indicadores comerciales clave.
 
 ---
 
 ## 🛠️ Herramientas utilizadas
 
-* Google Sheets (modelado y transformación de datos)
-* Looker Studio (visualización interactiva)
-* Excel (análisis exploratorio y validación)
-* Funciones y métricas calculadas (SUM, COUNT, agregaciones)
+- Google Sheets
+- Looker Studio
+- Tablas dinámicas
+- Fórmulas y métricas calculadas
+- Visualización de datos
 
 ---
 
-## 🗂️ Estructura de datos
+## 🗂️ Estructura del proyecto
 
-### 📄 Hoja 1: `ventas`
+El proyecto cuenta con dos hojas principales:
 
-Contiene el detalle de cada transacción:
+### `ventas`
+Contiene el detalle de las ventas realizadas, incluyendo información como:
 
-* ID de venta
-* Fecha
-* Cliente
-* Producto
-* Categoría
-* Cantidad
-* Precio unitario
-* Método de pago
-* Estado de la venta
-* Total de venta
+- Fecha
+- Cliente
+- Producto
+- Categoría
+- Cantidad
+- Precio unitario
+- Método de pago
+- Estado de venta
+- Total de venta
 
----
-
-### 📄 Hoja 2: `ventas_por_region`
-
-Contiene agregaciones para análisis geográfico y comercial:
-
-* Ventas por región
-* Distribución de métodos de pago
-* Métricas consolidadas
+### `ventas_por_region`
+Contiene información agregada para analizar ventas por región y método de pago.
 
 ---
 
-## 📊 Dashboard interactivo
+## 📊 Dashboard principal: Ventas
 
-![Dashboard principal](ventas.png)
+![Dashboard ventas](ventas.png)
 
-### 🎛️ Funcionalidades interactivas:
+### Indicadores principales
 
-* Filtros por fecha
-* Filtros por método de pago
-* Filtros por estado de venta
-* Filtros por región
-* Exploración dinámica de datos
+- Ventas totales
+- Cantidad de productos vendidos
+- Número de clientes
+- Total de pedidos
+- Ticket promedio
 
----
+### Análisis incluidos
 
-### 📈 KPIs principales:
-
-* Ventas totales
-* Cantidad de productos vendidos
-* Número de clientes
-* Total de pedidos
-* Ticket promedio
+- Recaudación por categoría
+- Distribución de métodos de pago
+- Evolución mensual de ventas
+- Estado de las ventas
+- Comparación de ventas por producto
 
 ---
 
-### 📊 Análisis incluidos:
+## 🌎 Dashboard: Ventas por región
 
-* Recaudación por categoría
-* Métodos de pago más utilizados
-* Evolución mensual de ventas
-* Top productos más vendidos
-* Top clientes por ventas
-* Ventas segmentadas por región
+![Dashboard ventas por región](ventas_por_region.png)
 
----
+### Análisis incluidos
 
-## 📈 Proceso de trabajo
-
-1. Limpieza y validación de datos
-2. Estandarización de formatos
-3. Creación de métricas derivadas
-4. Modelado de datos en Google Sheets
-5. Desarrollo del dashboard en Looker Studio
+- Ventas por región
+- Métodos de pago por región
+- Top 10 productos más vendidos
+- Top clientes por ventas
+- Comparación regional del rendimiento comercial
 
 ---
 
-## 🔍 Insights obtenidos
+## 📈 Proceso realizado
 
-* Identificación de categorías más rentables
-* Detección de clientes de alto valor
-* Análisis de comportamiento de compra por región
-* Evaluación de tendencias de ventas
-* Identificación de métodos de pago predominantes
+1. Organización de los datos en Google Sheets.
+2. Limpieza y revisión de campos.
+3. Creación de métricas y cálculos necesarios.
+4. Conexión de Google Sheets con Looker Studio.
+5. Diseño de dashboards interactivos.
+6. Visualización de KPIs, categorías, productos, clientes y regiones.
 
 ---
 
-## 🎯 Conclusión
+## 🔍 Insights principales
 
-El dashboard permite analizar el desempeño del negocio de forma interactiva, proporcionando una visión clara y accionable para la toma de decisiones comerciales.
+- Identificación de categorías con mayor recaudación.
+- Análisis de productos con mejor desempeño en ventas.
+- Visualización de clientes con mayor volumen de compra.
+- Seguimiento de métodos de pago más utilizados.
+- Comparación de ventas por región.
+- Evaluación de la evolución mensual de las ventas.
 
 ---
 
 ## 🔗 Ver dashboard interactivo
 
-👉 [Ver en Looker Studio](https://datastudio.google.com/reporting/4c552343-77c9-4ffa-8e62-cb099e2b910d)
+[Ver dashboard en Looker Studio](https://datastudio.google.com/reporting/4c552343-77c9-4ffa-8e62-cb099e2b910d)
 
 ---
 
-## 📊 Dataset
+## 📁 Archivos incluidos
 
-Datos simulados con fines educativos.
+- Captura del dashboard de ventas.
+- Captura del dashboard de ventas por región.
+- Fuente de datos trabajada en Google Sheets.
 
 ---
 
-## 👩‍💻 Autor
+## 🎯 Conclusión
 
-Génesis Acosta
-Analista de Datos en formación
+Este proyecto demuestra el uso de Google Sheets y Looker Studio para construir un dashboard interactivo orientado al análisis comercial de un supermercado. Permite visualizar indicadores clave, detectar patrones de ventas y apoyar la toma de decisiones basada en datos.
